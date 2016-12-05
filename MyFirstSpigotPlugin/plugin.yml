@@ -1,0 +1,11 @@
+main: tld.example.myfirstspigotplugin.Main
+name: MyFirstSpigotPlugin
+version: 1.0
+author: Infernalized
+description: An Example plugin
+commands:
+  mycommand:
+    description: An example command
+    usage: /mycommand
+    permission: myplugin.mycommand
+    permission-message: You don't have the myplugin.mycommand permission.
